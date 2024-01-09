@@ -1,46 +1,46 @@
 
-High Capacity MHM-baseed RDH
+基于MHM的高容量RDH方法
 =======
 
 
-This repo is implementation for the accepted paper "[High capacity reversible data hiding based on multiple histograms modification](https://ieeexplore.ieee.org/document/8733828)" (TCSVT 2021).
+论文题目： "[High capacity reversible data hiding based on multiple histograms modification](https://ieeexplore.ieee.org/document/8733828)" (TCSVT 2021).
 
 
 <p align="center"> <img src="./M1.jpg" width="100%">    </p>
-<p align="center"> Figure 1: Illustration of the proposed modification manner on a PEH. </p>
+<p align="center"> 图1: 提出的单个PEH修改方法示意. </p>
 
 
 <p align="center"> <img src="./M2.jpg" width="100%">    </p>
-<p align="center"> Figure 2:  An example of the proposed high capacity MHM for the maximum modification δ = 2. </p>
+<p align="center"> 图2:  提出的高容量 MHM 示例（ 最大修改量 δ = 2）. </p>
 
 
 
-## How to run
+## 如何运行
+下载项目源代码
 
 ```
-go to sourceFile
-Follow main_apt.m
+打开 sourceFile 文件夹
+运行 main_apt.m 文件
 ```
 
-## Experimental Results
+## 实验结果
 
 <p align="center"> <img src="./R1.jpg" width="100%">    </p>
-<p align="center"> Figure 3: Comparisons in terms of capacity-distortion performance. </p>
+<p align="center"> 图3: 对比容量-失真性能. </p>
 
 <p align="center"> <img src="./R2.jpg" width="100%">    </p>
-<p align="center"> Figure 4: Parameters comparison using δ = 1 and δ = 2 for 0.25 bpp.</p>
+<p align="center"> 图4: 0.25bpp下的参数对比（δ = 1 和 δ = 2）.</p>
 
 
-## Environment
+## 实验环境
 Matlab 2016b <br>
 
 
-## Acknowledgement
-This work was supported in part by the National Key Research and Development of China under Grant 2016YFB0800404, in part by the National Science
-Foundation of China under Grant 61872128, Grant 61572052, Grant 61532005, and Grant 61332012, and in part by the Fundamental Research Funds for the Central Universities under Grant 2018JBZ001.
+## 致谢
+这项工作得到了国家重点研发项目（2016YFB0800404）的部分资助，国家自然科学基金项目（Nos. 61872128、61572052、61532005、61332012）的部分资助和中央高校基本科研业务费（2018JBZ001）的部分资助
 
-## Citation
-If you find this work useful for your research, please cite
+## 引用格式
+如果这项工作对您的研究有帮助, 请按如下格式引用：
 ```
 @ARTICLE{8733828,
   author={Ou, Bo and Zhao, Yao},
@@ -53,6 +53,6 @@ If you find this work useful for your research, please cite
   doi={10.1109/TCSVT.2019.2921812}}
 ```
 
-## License and Copyright
-The project is open source under MIT license (see the ``` LICENSE ``` file).
+## 版权声明
+受欧博老师委托，本项目已开源 (详见 ``` MIT LICENSE ``` ).
 
